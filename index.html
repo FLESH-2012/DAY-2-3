@@ -3,71 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAY-2</title>
+    <title>Document</title>
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
-    <h1>MiniUI</h1>
-    <a href="Profile">Profile</a>
-    <a href="Pricing">Pricing</a>
-    <button class="btn-get-started">Get Started</button>
-      <h2>Profile Card</h2>
-    <p>Box model • border • display • center</p>
-      <h2 class="name">Akmal DevOps</h2>
-            <div ">Backend & DevOps Engineer</div>
-            
-            <p >Bu sahifa faqat box-model va display mavzulari bilan tuzilgan.</p>
+      <header class="header">
+        <div class="logo">SkillFlow</div>
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="#">Courses</a>
+            <a href="#">Progress</a>
+            <a href="#">Community</a>
+        </nav>
+        <div class="profile">
+            <p>Akmal</p>
+            <span>IT Park • Level 12</span>
+        </div>
+    </header>
 
-            <div class="tags">
-                <span class="tag">B2 - C1 English</span>
-                <span class="tag">EPAM</span>
-                <span class="tag">Linux</span>
-            </div><br>
+    <div class="container">
 
-            <div class="buttons">
-                <button class="btn btn-dark">View Plans</button>
-                <button class="btn btn-outline">Contact</button>
-                <h2>Pricing Cards</h2>
-                <p>display inline-block • width • margin</p>
-                <div>
-     <h3>Starter</h3>
-     <h1>$9 /mo</h1>
-     <ul>
-        <li>1 Project</li>
-        <li>Basic Support</li>
-      <li>Community Access</li>
-    </ul>
-    <ul>
-    <button>Choose Starter</button>
-    </ul>
-   </div>
+    
+        <aside class="sidebar">
+            <h3>MAIN MENU</h3>
+            <ul>
+                <li class="active"> Dashboard</li>
+                <li> My Courses</li>
+                <li> Favorites</li>
+                <li> Calendar</li>
+                <li> Settings</li>
+            </ul>
+        </aside>
 
-     <div>
-      <h3>Pro</h3>
-    <h1>$19 /mo</h1>
+    
+        <main class="main">
+
           
+            <div class="greeting"></h2>
+                <p>You have finished <span>68%</span> of your monthly learning goal</p>
+            </div>
 
-        <ul>
-       <li>10 Projects</li>
-        <li>Priority Support</li>
-       <li>Private Templates</li>
-    </ul>
-      <button>Choose Pro</button>
-   </div>
+           
+            <h3>Quick Stats</h3>
+            <div class="stats">
+                <div class="card">
+                    <h2 class="green">12</h2>
+                    <p>Courses Enrolled</p>
+                </div>
+                <div class="card">
+                    <h2 class="orange">47</h2>
+                    <p>Hours Learned</p>
+                </div>
+                <div class="card">
+                    <h2 class="purple">8</h2>
+                    <p>Certificates Earned</p>
+                </div>
+            </div>
 
-   <div>
- <h3>Team</h3>
- <h1>$39/mo</h1>
-        <li>Unlimited Projects</li>
-      <li>Team Roles</li>
-       <li>SLA Support</li>
-    </ul>
-      <button>Choose Team</button>
-   </div>
+           
+            <h3>My Courses</h3>
+            <div class="courses">
+                
+                <div class="course blue">
+                    <div class="course-body">
+                        <h4>Modern UI/UX Design</h4>
+                        <p>by Sarah Chen</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:76%"></div>
+                        </div>
+                        <span>76% Complete</span>
+                        <button>Continue →</button>
+                    </div>
+                </div>
 
- </div>
+                <div class="course red">
+                    <div class="course-body">
+                        <h4>Python for Beginners</h4>
+                        <p>by Michael Ross</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:45%"></div>
+                        </div>
+                        <span>45% Complete</span>
+                        <button>Continue →</button>
+                    </div>
+                </div>
 
-<p>Tip:bu layout faqat inline-block, margin,width bilan qilingan.</p>
+                <div class="course green">
+                    <div class="course-body">
+                        <h4>Business English</h4>
+                        <p>by Emma Thompson</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:92%"></div>
+                        </div>
+                        <span>92% Complete</span>
+                        <button>Continue →</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+ 
 
 </body>
 </html>
